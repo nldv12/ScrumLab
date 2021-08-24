@@ -1,0 +1,107 @@
+.schedules {
+  width: 90%;
+  height: 90%;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px dashed #A1A194;
+
+  .schedules__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #A1A194;
+    padding-bottom: 3px;
+
+    h2 {
+      text-transform: uppercase;
+      font-size: 25px;
+      color: #FF6600;
+      font-weight: bold;
+    }
+
+    button {
+      height: 25px;
+      width: 25px;
+      font-size: 25px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #468966;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a{
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+
+  .schedules__table {
+    margin-top: 15px;
+    padding: 0 15px;
+    color: #ABAB9F;
+
+    thead {
+      font-size: 20px;
+      color: #5B605F;
+      font-weight: bold;
+      text-transform: uppercase;
+
+      th {
+        border-top: 1px solid #A1A194;
+        border-bottom: 1px solid #A1A194;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+
+    .schedules__table-id {
+      width: 5%;
+    }
+
+    .schedules__table-name {
+      width: 15%;
+    }
+
+    .schedules__table-description {
+      width: 60%;
+    }
+
+    .schedules__table-week {
+      width: 5%;
+    }
+
+    .schedules__table-action {
+      width: 15%;
+      text-align: right;
+      padding-right: 40px;
+    }
+
+    td {
+      padding: 10px 5px;
+      border-bottom: 1px solid #A1A194;
+      position: relative;
+
+      svg {
+        width: 25px;
+        cursor: pointer;
+      }
+
+      //svg:first-child {
+      //  position: absolute;
+      //  top: 10px;
+      //  right: 70px;
+      //}
+      //
+      //svg:last-child {
+      //  position: absolute;
+      //  top: 10px;
+      //  right: 40px;
+      //}
+    }
+  }
+}

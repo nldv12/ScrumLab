@@ -1,0 +1,135 @@
+.add_plan {
+  background-color: #ffffff;
+  border: 1px dashed #A1A194;
+  padding: 40px;
+  margin: 0 auto;
+  width: 90%;
+  height: 90%;
+
+  .add_plan__header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #C8C8C8;
+
+    p {
+      font-size: 30px;
+      font-weight: bold;
+      color: #FF6600;
+      text-transform: uppercase;
+    }
+
+    .add_plan__header-btn {
+      border: none;
+      background-color: #FF6600;
+      font-size: 20px;
+      color: #fff;
+      font-weight: bold;
+      height: 35px;
+      width: 180px;
+      cursor: pointer;
+    }
+  }
+
+  .add_plan__form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 100px 0 25px;
+    border-width: 70px;
+
+    .add_plan__form-row {
+      display: flex;
+      justify-content: space-between;
+
+      input[type="number"] {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 17px;
+      }
+
+      label {
+        font-size: 30px;
+        color: #656968;
+        margin-bottom: 20px;
+      }
+
+
+      input, textarea {
+        justify-content: space-between;
+        min-height: 30px;
+        width: 750px;
+        margin-bottom: 20px;
+        resize: vertical;
+      }
+    }
+
+    .row3 {
+      justify-content: flex-start;
+
+      input {
+        margin-left: 30px;
+      }
+    }
+  }
+}
+
+.space {
+  margin-left: 236px;
+  margin-right: 20px;
+  border-top: 2px solid #C8C8C8;
+}
+
+.add_plan__table {
+  max-width: 700px;
+  margin-top: 10px;
+
+
+  .dish_type {
+    div {
+      min-width: 150px;
+      text-align: center;
+    }
+    line-height: 34px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-left: 234px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    font-size: 28px;
+    color: #656968;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  td {
+    border-bottom: 1px solid #C8C8C8;
+    border-top: 1px solid #C8C8C8;
+    text-align: center;
+
+
+    select {
+      border-radius: 5px;
+      border: 2px solid #C8C8C8;
+      padding: 5px;
+      width: 150px;
+      height: 30px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 30px;
+      color: #656968;
+    }
+  }
+
+  .day {
+    color: #656968;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 7px 20px;
+
+  }
+}

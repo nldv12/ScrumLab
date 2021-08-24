@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Zaplanuj Jedzonko</title>
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css"/>
+</head>
+
+<body>
+<div class="container">
+<nav>
+    <div class="application--top">
+        <div class="logo"><a href="index.html">Zaplanuj <span>Jedzonko</span></a></div>
+        <div class="user">
+            <span class="user_name">Imię</span>
+            <img src="img/app_user.svg" alt="">
+        </div>
+    </div>
+</nav>
+
+<main>
+    <div class="application--container">
+        <div class="application--list">
+            <ul>
+                <li><a href="app.html">Pulpit</a> <img src="img/arrow-right%20(2).svg" alt=""></li>
+                <li><a href=""><p>Przepisy</p></a><img src="img/arrow-right%20(2).svg" alt=""></li>
+                <li><a href="schedules.html">Plany</a><img src="img/arrow-right%20(2).svg" alt=""></li>
+            </ul>
+        </div>
+        <div class="application--content">
+            <div class="schedules">
+                <div class="recipes_list">
+                    <div class = "recipe__header">
+                        <h1>lista przepisów</h1>
+                        <button class="add_recipe__summary-btn"><a href="recipes.html">+</a></button>
+                    </div>
+                    <div class ="recipe_description">
+                        <h1>id</h1>
+                        <h2>nazwa</h2>
+                        <h3>opis</h3>
+                        <h4>akcje</h4>
+                    </div>
+<!--                  <div class="single-recipe"></div>-->
+                    <table>
+                        <thead>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </thead>
+                        <tbody id ="single_recipe"></tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="./js/recipe_list.js"></script>
+</div>
+</body>
+
+</html>

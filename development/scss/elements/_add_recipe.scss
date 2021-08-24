@@ -1,0 +1,131 @@
+.add_recipe {
+  background-color: #fff;
+  border: 1px dashed #A1A194;
+  padding: 40px;
+  margin: 0 auto;
+  width: 90%;
+  height: 90%;
+
+  .add_recipe__header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #C8C8C8;
+
+    p {
+      font-size: 30px;
+      font-weight: bold;
+      color: #FF6600;
+      text-transform: uppercase;
+    }
+
+    .add_recipe__header-btn {
+      border: none;
+      background-color: #FF6600;
+      font-size: 20px;
+      color: #fff;
+      font-weight: bold;
+      height: 35px;
+      width: 180px;
+      cursor: pointer;
+    }
+  }
+
+  .add_recipe__form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 100px 0 25px;
+
+    .add_recipe__form-row {
+      display: flex;
+      justify-content: space-between;
+
+      label {
+        font-size: 30px;
+        color: #656968;
+        margin-bottom: 20px;
+      }
+
+      input, textarea {
+        min-height: 30px;
+        width: 750px;
+        margin-bottom: 20px;
+        resize: vertical;
+      }
+    }
+  }
+
+  .add_recipe__summary {
+    display: flex;
+
+    .add_recipe__instruction, .add_recipe__ingredients {
+      width: 50%;
+      margin: 10px 25px;
+
+      h2 {
+        font-size: 30px;
+        color: #5B605F;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #C8C8C8;
+      }
+
+      .add_recipe__summary-row {
+        padding-top: 10px;
+        position: relative;
+
+        textarea {
+          width: 87% !important;
+          min-height: 30px;
+          resize: vertical;
+        }
+
+        .add_recipe__summary-btn {
+          height: 30px;
+          width: 30px;
+          border: none;
+          font-size: 30px;
+          color: #fff;
+          font-weight: bold;
+          border-radius: 5px;
+          background-color: #468966;
+          padding: 0;
+          cursor: pointer;
+          position: absolute;
+          top: 10px;
+          right: 0;
+        }
+      }
+    }
+  }
+
+  .add_recipe__instruction-box, .add_recipe__ingredients-box {
+    height: 250px;
+    overflow-y: scroll;
+    margin-top: 30px;
+  }
+
+  .add_recipe__instruction-list, .add_recipe__ingredients-list {
+    margin-left: 25px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #656968;
+  }
+
+  .add_recipe__instruction-list {
+    list-style: decimal;
+  }
+
+  .add_recipe__ingredients-list {
+    list-style: disc;
+  }
+
+  svg {
+    cursor: pointer;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}

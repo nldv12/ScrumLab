@@ -1,0 +1,32 @@
+.about_me {
+  padding: 50px 0;
+  background-color: #cfcfcf;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+}
+
+.about_photo {
+  background-color: $screenHeaderBackground;
+  background-image: url("https://img-ovh-cloud.zszywka.pl/0/0249/5895-fajna-laska-i-fajny-tatuaz.jpg");
+  object-fit: fill;
+  height: 300px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.about_right {
+  max-width: 500px;
+  margin-left: 150px;
+  margin-top: 0;
+}
+
+.about_title {
+  margin: 0 0 20px 0;
+  font-size: 30px;
+}
+
+.about_description {
+  font-size: 20px;
+}

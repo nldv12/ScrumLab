@@ -1,0 +1,28 @@
+@import "generic/reset"; // AS
+@import "settings/colors"; // AS
+@import "elements/fonts"; // AS
+@import "elements/base"; // ML
+
+@import "elements/header"; // TZ
+@import "elements/carousel"; // DO
+@import "elements/cta"; // NM
+@import "elements/features"; // ML
+@import "elements/newsletter"; // TZ
+@import "elements/aboutme"; // NMf
+@import "elements/footer"; // ML
+
+// app.html
+@import "elements/mainpage"; // DO
+@import "elements/rec_bottons"; // NM
+@import "elements/widgetnews"; // ML
+@import "elements/table_days"; //TZ
+@import "elements/add_recipe"; // ML
+@import "elements/add_plan"; // NM
+
+// recipes.html
+
+// schedules.html
+@import "elements/schedules"; // ML
+
+// recipes_list.html
+@import "elements/recipes_list"; //AS

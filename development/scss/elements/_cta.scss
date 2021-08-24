@@ -1,0 +1,43 @@
+.cTa {
+  font-family: $font-open-sans;
+  color: #ececec;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $header;
+}
+
+.left_cTa {
+  margin: 30px;
+}
+
+.cTa_title {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.cTa_description {
+  font-family: $font-open-sans;
+
+  font-size: 19px;
+  line-height: 23px;
+  max-width: 700px;
+}
+
+.cTa_btn a {
+  font-family: $font-open-sans;
+  font-size: $font-size;
+  font-weight: 600;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px 35px;
+}
+
+.cTa_btn {
+  margin-left: 130px;
+  background-color: $button;
+  border: none;
+}
